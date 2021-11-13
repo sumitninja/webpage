@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:white;
+
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+.navbar{
+	background:red;
+}
+.nav-link , .navbar-brand{
+	color: white;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: white;
+	color: orangered;
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background: white !important;
+}
+.header{
+	position: relative;
+	background-size: cover;
+	background-position: center;
+}
+.description-container{
+	margin: 10em;
+	height: 80%;
+    width: 100%;
+	max-width: 800px;
+}
+.description-container{
+	float: centre;
+}
+.description-container h1{
+	margin: 0em;
+	color:orange ;
+}
+.description-container p{
+	color: black;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description-container button{
+	border:1px;  solid: orange;
+	background: orangered;
+	color:white;
+
+}
+.about{
+	margin: 4em 0;
+	bottom: 5em;
+	padding: 1em;
+	position: relative;
+}
+.about h1{
+	color:orange;
+	margin: 2em;
+}
+.about img{
+	height: 150%;
+    width: 100%;
+    
+}
+.about span{
+	display: block;
+	color:grey;
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left:4px;
+}
+.about .desc h3{
+	color: aqua;
+}
+.about .desc p{
+	line-height:2;
+	color:black;
+}
+.gallery{
+	margin: 15em 0;
+    position: relative;	
+}
+.gallery h1{
+	color:orange;
+	margin: 1em;	
+	
+}
+.carousel-slide{
+	height: 80vh;
+	min-height: 50vh;
+	display: flex;
+	align-items: centre;
+	background: no-repeat scroll centre scroll;
+	-webkit-background-size: cover;
+	background-size: cover;
+}		
+.programs{
+	margin: 0em 0;
+	position: relative;	
+}
+.programs h1{
+	color:orange;
+	margin: 2em;	
+}
+.programs .card-title{
+	color:black;
+	 
+}
+.programs .card-body{
+	padding: 1em;
+}
+.contact{
+	margin: 8em 0;
+	position: relative;
+
+}
+.contact h1{
+	color:orange;
+	margin: 2em;	
+}
+.contact .item{
+	position: relative;
+	overflow: hidden;	
+}
+.contact .des{
+	background:orange;
+	color:black;
+	text-align: center;
+	border-top-right-radius: 93%;
+	transition:.3s ease-in-out;
+	position: absolute;
+	width: 88%;
+	bottom: 24px;
+}
+
+.contact-form{
+	margin: 6em 0;
+	position: relative;		
+}
+
+.contact-form h1{
+	padding:2em 1px;
+	color:orange; 
+}
+.contact-form .right{
+	max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+	background:orange;
+	color:white;
+	border:0;
+}
+.contact-form .right .form-control::placeholder{
+	color:grey;
+	font-size: 16px;
+}
